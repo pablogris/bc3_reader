@@ -1,0 +1,18 @@
+# pyproject.toml
+[project]
+name = "bc3-lib"
+version = "0.1.0"
+description = "Lector y utilidades pandas para ficheros BC3 (FIEBDC-3)"
+authors = [{ name = "pablogris", email = "arqpablogm@gmail.com" }]
+dependencies = ["pandas>=2.2"]
+
+[project.urls]
+Homepage = "https://github.com/pablogris/bc3_reader.git"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bc3_lib*"]
