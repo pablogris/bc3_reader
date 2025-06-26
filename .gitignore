@@ -183,3 +183,6 @@ cython_debug/
 *.ENV
 *.bc3
 *.png
+
+*.egg-info/
+*.egg-info/*
