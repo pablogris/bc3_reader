@@ -184,5 +184,7 @@ cython_debug/
 *.bc3
 *.png
 
+/scripts/
+
 *.egg-info/
 *.egg-info/*
